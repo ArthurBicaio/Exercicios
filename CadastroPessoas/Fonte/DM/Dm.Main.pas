@@ -19,10 +19,14 @@ type
     { Private declarations }
   public
     { Public declarations }  //Comentario
+
   end;
 
 var
   DmMain: TDmMain;
+
+const
+  fSenha  =  '123456789';
 
 implementation
 
