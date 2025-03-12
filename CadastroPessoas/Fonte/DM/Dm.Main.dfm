@@ -3,10 +3,13 @@ object DmMain: TDmMain
   Width = 314
   object FDConnection1: TFDConnection
     Params.Strings = (
-      'Database=C:\DelphiProjetos\CadastroPessoas\Dados\dados.db'
+      
+        'Database=C:\DelphiProjetos\ProjetosGitHub\Exercicios\CadastroPes' +
+        'soas\Dados\dados.db'
       'OpenMode=ReadWrite'
       'LockingMode=Normal'
       'DriverID=SQLite')
+    ConnectedStoredUsage = [auDesignTime]
     Connected = True
     LoginPrompt = False
     Left = 80
