@@ -76,34 +76,25 @@ object Form1: TForm1
   object BtnExcluir: TButton
     Left = 8
     Top = 119
-    Width = 97
+    Width = 201
     Height = 25
     Caption = 'Excluir'
     TabOrder = 2
     OnClick = BtnExcluirClick
-  end
-  object BtnNovo: TButton
-    Left = 111
-    Top = 119
-    Width = 98
-    Height = 25
-    Caption = 'Novo'
-    TabOrder = 3
-    OnClick = BtnNovoClick
   end
   object edt_id: TEdit
     Left = 451
     Top = 31
     Width = 65
     Height = 23
-    TabOrder = 4
+    TabOrder = 3
   end
   object edt_Nome: TEdit
     Left = 451
     Top = 60
     Width = 65
     Height = 23
-    TabOrder = 5
+    TabOrder = 4
   end
   object BtnEditar: TButton
     Left = 451
@@ -111,7 +102,7 @@ object Form1: TForm1
     Width = 65
     Height = 25
     Caption = 'Editar'
-    TabOrder = 6
+    TabOrder = 5
     OnClick = BtnEditarClick
   end
   object edt_Idade: TEdit
@@ -119,7 +110,7 @@ object Form1: TForm1
     Top = 89
     Width = 65
     Height = 23
-    TabOrder = 7
+    TabOrder = 6
   end
   object DataSource1: TDataSource
     DataSet = DmMain.FDQuery1

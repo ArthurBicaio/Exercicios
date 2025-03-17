@@ -13,7 +13,6 @@ type
     DataSource1: TDataSource;
     BtnAbrir: TButton;
     BtnExcluir: TButton;
-    BtnNovo: TButton;
     edt_id: TEdit;
     ID: TLabel;
     edt_Nome: TEdit;
