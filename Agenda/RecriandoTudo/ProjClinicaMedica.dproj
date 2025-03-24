@@ -99,15 +99,20 @@
             <MainSource>MainSource</MainSource>
         </DelphiCompile>
         <DCCReference Include="UnicMedica.pas">
-            <Form>Form1</Form>
+            <Form>FormPrincipal</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
+        <DCCReference Include="..\ClinicaMedica\UnitDm.pas">
+            <Form>Dm</Form>
+            <FormType>dfm</FormType>
+            <DesignClass>TDataModule</DesignClass>
+        </DCCReference>
+        <DCCReference Include="UnitCadAgendamentos.pas">
+            <Form>FormAgendamentos</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <DCCReference Include="..\ClinicaMedica\UnitCadPacientes.pas">
-            <Form>Form2</Form>
-            <FormType>dfm</FormType>
-        </DCCReference>
-        <DCCReference Include="UnitCadAgendamentos.pas">
-            <Form>Form3</Form>
+            <Form>FormPacientes</Form>
             <FormType>dfm</FormType>
         </DCCReference>
         <BuildConfiguration Include="Base">
